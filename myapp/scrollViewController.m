@@ -40,6 +40,8 @@
     CGRect rect = CGRectMake(0, 0, 2000, 2000);
     UIImageView *imageView = [[UIImageView alloc]initWithFrame:rect];
     
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    btn.frame = CGRectMake(50, 100, 100, 1900);
     // 画像を設定
     imageView.image = [UIImage imageNamed:@"4014000.jpeg"];
     
