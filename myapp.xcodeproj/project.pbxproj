@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B63B73A5194B0FD700658653 /* 31Xt+9BqTyL._AA168_.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B63B73A4194B0FD700658653 /* 31Xt+9BqTyL._AA168_.jpg */; };
+		B63B73A8194B106B00658653 /* scrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B63B73A7194B106B00658653 /* scrollViewController.m */; };
+		B63B73AA194B113100658653 /* 4014000.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B63B73A9194B113100658653 /* 4014000.jpeg */; };
 		B64209DD1941D2FA008F7810 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B64209DC1941D2FA008F7810 /* Foundation.framework */; };
 		B64209DF1941D2FA008F7810 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B64209DE1941D2FA008F7810 /* CoreGraphics.framework */; };
 		B64209E11941D2FA008F7810 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B64209E01941D2FA008F7810 /* UIKit.framework */; };
@@ -21,6 +24,7 @@
 		B64209FE1941D2FB008F7810 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B64209E01941D2FA008F7810 /* UIKit.framework */; };
 		B6420A061941D2FB008F7810 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B6420A041941D2FB008F7810 /* InfoPlist.strings */; };
 		B6420A081941D2FB008F7810 /* myappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6420A071941D2FB008F7810 /* myappTests.m */; };
+		B65B2DDD195D54A30004E671 /* thirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65B2DDC195D54A30004E671 /* thirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B63B73A4194B0FD700658653 /* 31Xt+9BqTyL._AA168_.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "31Xt+9BqTyL._AA168_.jpg"; sourceTree = "<group>"; };
+		B63B73A6194B106B00658653 /* scrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scrollViewController.h; sourceTree = "<group>"; };
+		B63B73A7194B106B00658653 /* scrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = scrollViewController.m; sourceTree = "<group>"; };
+		B63B73A9194B113100658653 /* 4014000.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4014000.jpeg; sourceTree = "<group>"; };
 		B64209D91941D2F9008F7810 /* myapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B64209DC1941D2FA008F7810 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B64209DE1941D2FA008F7810 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +61,8 @@
 		B6420A031941D2FB008F7810 /* myappTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "myappTests-Info.plist"; sourceTree = "<group>"; };
 		B6420A051941D2FB008F7810 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B6420A071941D2FB008F7810 /* myappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myappTests.m; sourceTree = "<group>"; };
+		B65B2DDB195D54A30004E671 /* thirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = thirdViewController.h; path = myappTests/thirdViewController.h; sourceTree = SOURCE_ROOT; };
+		B65B2DDC195D54A30004E671 /* thirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = thirdViewController.m; path = myappTests/thirdViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +124,15 @@
 			children = (
 				B64209EB1941D2FA008F7810 /* AppDelegate.h */,
 				B64209EC1941D2FA008F7810 /* AppDelegate.m */,
+				B63B73A4194B0FD700658653 /* 31Xt+9BqTyL._AA168_.jpg */,
 				B64209EE1941D2FB008F7810 /* Main.storyboard */,
 				B64209F11941D2FB008F7810 /* ViewController.h */,
 				B64209F21941D2FB008F7810 /* ViewController.m */,
+				B63B73A6194B106B00658653 /* scrollViewController.h */,
+				B63B73A7194B106B00658653 /* scrollViewController.m */,
+				B63B73A9194B113100658653 /* 4014000.jpeg */,
+				B65B2DDB195D54A30004E671 /* thirdViewController.h */,
+				B65B2DDC195D54A30004E671 /* thirdViewController.m */,
 				B64209F41941D2FB008F7810 /* Images.xcassets */,
 				B64209E31941D2FA008F7810 /* Supporting Files */,
 			);
@@ -228,9 +244,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B63B73AA194B113100658653 /* 4014000.jpeg in Resources */,
 				B64209F51941D2FB008F7810 /* Images.xcassets in Resources */,
 				B64209E71941D2FA008F7810 /* InfoPlist.strings in Resources */,
 				B64209F01941D2FB008F7810 /* Main.storyboard in Resources */,
+				B63B73A5194B0FD700658653 /* 31Xt+9BqTyL._AA168_.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +270,7 @@
 				B64209F31941D2FB008F7810 /* ViewController.m in Sources */,
 				B64209ED1941D2FA008F7810 /* AppDelegate.m in Sources */,
 				B64209E91941D2FA008F7810 /* main.m in Sources */,
+				B63B73A8194B106B00658653 /* scrollViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B65B2DDD195D54A30004E671 /* thirdViewController.m in Sources */,
 				B6420A081941D2FB008F7810 /* myappTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +476,7 @@
 				B6420A0D1941D2FB008F7810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6420A0E1941D2FB008F7810 /* Build configuration list for PBXNativeTarget "myappTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +485,7 @@
 				B6420A101941D2FB008F7810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
