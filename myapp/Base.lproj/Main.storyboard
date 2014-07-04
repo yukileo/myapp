@@ -17,6 +17,7 @@
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             <items>
                                 <navigationItem title="Title" id="M60-9J-UIE">
+                                    <barButtonItem key="leftBarButtonItem" systemItem="add" id="aNI-sc-T7c"/>
                                     <barButtonItem key="rightBarButtonItem" title="→" id="8jC-Zf-t7U">
                                         <connections>
                                             <segue destination="gPs-zn-adv" kind="modal" id="21D-DX-cSy"/>
@@ -34,21 +35,21 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="URc-xO-owj">
-                                            <rect key="frame" x="46" y="3" width="34" height="22"/>
+                                            <rect key="frame" x="99" y="3" width="34" height="22"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" text="Subtitle" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="pMV-zf-HgN">
-                                            <rect key="frame" x="46" y="25" width="43" height="15"/>
+                                            <rect key="frame" x="99" y="25" width="43" height="15"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="cell" id="nNd-f2-g78">
-                                            <rect key="frame" x="15" y="13" width="16" height="16"/>
+                                        <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="4014000.jpeg" id="nNd-f2-g78">
+                                            <rect key="frame" x="15" y="0.0" width="69" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </imageView>
                                     </subviews>
@@ -116,7 +117,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="cell" width="16" height="16"/>
+        <image name="4014000.jpeg" width="1920" height="1200"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
