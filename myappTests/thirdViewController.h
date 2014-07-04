@@ -8,12 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface thirdViewController : UIViewController{
-    IBOutlet UITableView *table;
-    
-    NSMutableArray *nameArray;
-    NSMutableArray *imageArray;
+@interface thirdViewController : UIViewController
 
-}
+
+@property (weak, nonatomic) IBOutlet UITableView *tv;
+@property NSMutableArray *cells;
+
+- (IBAction)insertCell:(id)sender;
+- (IBAction)deleteAll:(id)sender;
 
 @end

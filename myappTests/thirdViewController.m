@@ -27,6 +27,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+     self.tv.dataSource = self;
 }
 
 - (void)didReceiveMemoryWarning
@@ -45,30 +46,23 @@
     // Pass the selected object to the new view controller.
 }
 */
-
-#pragma mark
-
--(NSInteger)tableView:(UITableView *)tableView
-numberOfRowsInSection:(NSInteger)section;
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return [nameArray count];
+    // Table Viewの行数を返す
+    return 5;
 }
--(UITableViewCell *)tableView:(UITableView *)tableView
-        cellForRowAtIndexPath:(NSIndexPath *)indexPath
+
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSString *cellIdentifier = @"cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
-    
-    if(!cell){
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellIdentifier];
+    UITableViewCell *tvcell = [tableView dequeueReusableCellWithIdentifier: @"cid"];
+    if (tvcell == nil) {
+        tvcell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault
+                                        reuseIdentifier: @"cid"];
     }
-    cell.textLabel.text = [ nameArray objectAtIndex:indexPath.row];
-    
-    cell.imageView.image = [imageArray objectAtIndex:indexPath.row];
-    
-    return cell;
-    
+    // Table Viewの各行の情報を、UITableViewCellのオブジェクトとして返す
+    tvcell.textLabel.text = [[NSString alloc] initWithFormat:@"%ld行目のセル", indexPath.row + 1];
+    return tvcell;
 }
-
 
 @end
